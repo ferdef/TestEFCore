@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace TestDB.Models
 {
@@ -6,6 +7,7 @@ namespace TestDB.Models
     {
         public Wine wine {get; set;}
         public User voter {get; set;}
+        [Required]
         public int value {get; set;}
     }
 }
