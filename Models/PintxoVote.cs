@@ -5,9 +5,12 @@ namespace TestDB.Models
 {
     public class PintxoVote
     {
-        public Pintxo pintxo {get; set;}
-        public User voter {get; set;}
+        // public Guid PintxoVoteId {get; set;}
+        public Pintxo Pintxo {get; set;}
+        public User Voter {get; set;}
+        public Guid PintxoId {get; set;}
+        public Guid VoterId {get; set;}
         [Required]
-        public int value {get; set;}
+        public int Value {get; set;}
     }
 }

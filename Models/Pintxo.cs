@@ -5,12 +5,12 @@ namespace TestDB.Models
 {
     public class Pintxo
     {
-        public Guid Id { get; set; }
+        public Guid PintxoId { get; set; }
         [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        public Contest context { get; set; }
-        public User creator { get; set; }
+        public Contest Context { get; set; }
+        public User Creator { get; set; }
 
     }
 }

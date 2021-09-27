@@ -5,12 +5,12 @@ namespace TestDB.Models
 {
     public class Wine
     {
-        public Guid id {get; set;}
-        public Family family {get; set;}
-        public Contest contest {get; set;}
+        public Guid WineId {get; set;}
+        public Family Family {get; set;}
+        public Contest Contest {get; set;}
         [Required]
-        public string name {get; set;}
-        public string year {get; set;}
-        public string type {get; set;}
+        public string Name {get; set;}
+        public string Year {get; set;}
+        public string Type {get; set;}
     }
 }

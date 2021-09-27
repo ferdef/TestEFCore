@@ -5,12 +5,12 @@ namespace TestDB.Models
 {
     public class User
     {
-        public Guid id {get; set;}
+        public Guid UserId {get; set;}
         [Required]
-        public string email {get; set;}
-        public string password {get; set;}
+        public string Email {get; set;}
+        public string Password {get; set;}
         [Required]
-        public string name {get; set;}
-        public Family family {get; set;}
+        public string Name {get; set;}
+        public Family Family {get; set;}
     }
 }

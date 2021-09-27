@@ -5,8 +5,11 @@ namespace TestDB.Models
 {
     public class WineVote
     {
-        public Wine wine {get; set;}
-        public User voter {get; set;}
+        // public Guid WineVoteId {get; set;}
+        public Wine Wine {get; set;}
+        public User Voter {get; set;}
+        public Guid WineId {get; set;}
+        public Guid VoterId {get; set;}
         [Required]
         public int value {get; set;}
     }
